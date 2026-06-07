@@ -30,29 +30,38 @@
   and it had the blend i was looking for, cutting edge (not "stable" but not bleeding edge),
   was easy to use and it rarely goes down,if at all, however the community made some decisions i
   did not approve of,but it was just that nice to let go. Enter Nobara, all the goodness of fedora,
-  but a even wider team that supports you,cares about you,even better, fine tuned the system for
+  but an even wider team that supports you,cares about you,even better, fine tuned the system for
   the best gaming experience.
 
 
 ## Setup Process
-- liquidctl
-- ckb-next
-- vivaldi
-- Firefox
-- Librewold
-- steam
-- wine (several winapps for recording bd's)
-- blender
-- Filezilla and Dolphin (set up for my seedbox)
+- liquidctl-AIO cooling management via CLI
+- ckb-next- Corsair Peripheral Management on Linux
+- Vivaldi/Firefox/Librewolf-Layered browser setup
+- Steam + Wine-Gaming and Windows compatibility
+- blender-3D rendering for potential 3D printer addition
+- Filezilla and Dolphin-configured for seedbox management
 
 ## Notable Configurations
 - AIO setup and  systemd service for liquidctl
 - Intel ME disable
 - CUPS (I print a lot)
 
+## Intel ME Disable
+- Disabled Intel Management Engine using systemd blacklisting.
+- reducing attack surface on the primary workstation.
+- Rebuilt initramfs using dracut --force post-configuration.
+
 ## Challenges
--this device is the one that has given me the least trouble.every once in a blue moon
- it borks due to an update,but going into live and restoring the system is not much trouble
+- this device is the one that has given me the least trouble.every once in a blue moon
+  it borks due to an update,but going into live and restoring the system is not much trouble
+
+## Lessons Learned
+- AMD vs Nvidia driver management on Linux
+- systemd service creation and management
+- Hardware-level security configuration (Intel ME)
+- System recovery via live environment
+- Cross-platform application compatibility via Wine
 
 ## Current State
 - Active
