@@ -5,7 +5,7 @@
 - CPU:Intel(R) Core(R) I9-9900K (16) @ 5.00 GHz
 - RAM:Corsair Dominator Platinum 64GB DDR4
 - GPU:AMD Radeon RX 7900 XTX (previously rocked a Nvidia RTX 2080Ti Founders edition)
-  Storage:x1 NVMe 4TB Drive, x1 2.5GB Samsung SSD
+- Storage:x1 NVMe 4TB Drive, x1 2.5GB Samsung SSD
 - Cooling:Corsair H150i
 - Drives/media:x1 HL-DT-ST BD-RE BH16NS40 BD Drive, x1 HL-DT-ST BD-RE WH14NS40 BD Drive
   Multi Card Reader.
@@ -29,13 +29,13 @@
 - I chose nobara for multiple reasons, fedora was my first branch out of the debian ecosystem,
   and it had the blend i was looking for, cutting edge (not "stable" but not bleeding edge),
   was easy to use and it rarely goes down,if at all, however the community made some decisions i
-  did not approve of,but it was just that nice to let go, Enter Nobara, all the goodness of fedora,
+  did not approve of,but it was just that nice to let go. Enter Nobara, all the goodness of fedora,
   but a even wider team that supports you,cares about you,even better, fine tuned the system for
   the best gaming experience.
 
 
 ## Setup Process
-- liquidctl,
+- liquidctl
 - ckb-next
 - vivaldi
 - Firefox
