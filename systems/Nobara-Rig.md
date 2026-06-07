@@ -35,20 +35,20 @@
 
 
 ## Setup Process
-- liquidctl-AIO cooling management via CLI
-- ckb-next- Corsair Peripheral Management on Linux
-- Vivaldi/Firefox/Librewolf-Layered browser setup
-- Steam + Wine-Gaming and Windows compatibility
-- blender-3D rendering for potential 3D printer addition
-- Filezilla and Dolphin-configured for seedbox management
+- liquidctl - AIO cooling management via CLI
+- ckb-next - Corsair Peripheral Management on Linux
+- Vivaldi/Firefox/Librewolf - Layered browser setup
+- Steam + Wine - Gaming and Windows compatibility
+- blender - 3D rendering for potential 3D printer addition
+- Filezilla and Dolphin - Configured for seedbox management
 
 ## Notable Configurations
 - AIO setup and  systemd service for liquidctl
 - Intel ME disable
-- CUPS (I print a lot)
+- CUPS - configured for network printing across lab machines
 
 ## Intel ME Disable
-- Disabled Intel Management Engine using systemd blacklisting.
+- Disabled Intel Management Engine by Blacklisted mei, mei_me kernel modules via /etc/modprobe.d/
 - reducing attack surface on the primary workstation.
 - Rebuilt initramfs using dracut --force post-configuration.
 
