@@ -36,7 +36,10 @@
   multiple sources to identify the root cause, turns out,most of dells have a bug where they default to their desired location no
   matter if you relocate the file right from the UEFI, they just straight up ignore your request and default. however,the versatility
   of GRUB meant i could send the boot file back to where the UEFI wanted it,without too much hassle, by running the following command:
-  Grub-install --efi-directory=/efi --removable, that fixed my issue and i was able to boot.
+  ```bash
+  Grub-install --efi-directory=/efi --removable
+  ```
+  that fixed my issue and i was able to boot.
 - however,as this machine is a test rig,it will get a new system soon,but i do enjoy gentoo, will definitely install in a laptop
   i plan to buy in the future for daily driving,id just have to set it very stable.
 - also this test mini DOES NOT LIKE GENTOO, compilation times take forever, and the system slows down even for midsize apps/packages
