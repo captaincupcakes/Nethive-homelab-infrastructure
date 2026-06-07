@@ -1,7 +1,7 @@
 # EOS Laptop
 
 ## Hardware Specs
-- System: MSI Creator 15 A10SFS REV:1.0 
+- System: MSI Creator 15 A10SFS REV:1.0
 - CPU:Intel i7-10875H (16) @ 5.100GHz
 - RAM:32GB DDR4 (was planning on upgrading to 64GB,Alas)
 - Storage:1TB SSD (alas,ran out of time)
@@ -28,7 +28,9 @@
 
 ## Notes
 - Wireless only -âpoor signal due to old house made of thick wood
-- Wired ethernet available, only used for hard trsting or troubleshooting
+- Wired ethernet available, only used for hard testing or troubleshooting
 - Router Antenna extended to Main hall to improve signal
-- Most devices do get good signal,except the laptop, measured with wifi signal strenght app 
-  suspect my laptop antennaes or the card are giving issues
+- Most devices do get good signal,except the laptop, measured with wifi signal strenght app
+  suspect my laptop antennaes or the card are giving issues..
+- update: antennas are in a very bad location on the laptop (end of the case, both right near each other)
+  engineering a way to add external stubby antennas, guess MSI went the cheap route when it came to WiFI 
