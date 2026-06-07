@@ -1,8 +1,12 @@
 # Nethive Home Lab Infrastructure
 
 ## Overview
-A personal IT infrastructure lab built for hands-on learning, 
+A personal IT infrastructure lab built for hands-on learning,
 skill development, and real world systems administration practice.
+
+This lab was built with the goal of exploring the Linux ecosystem comprehensively
+covering source-based, independent, Arch-based, and specialized distributions
+alongside Windows environments to develop well-rounded systems administration skills
 
 ## Hardware
 | Device | OS | Role |
