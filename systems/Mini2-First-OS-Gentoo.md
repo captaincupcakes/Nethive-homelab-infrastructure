@@ -29,9 +29,10 @@
 - first i struggled using cfdisk,but got a hang of it rather quick,the gentoo reminded me in a very stern voice why syntax matters,
   after that, use flags put me back to square one "used too many for not yet installed packages", nothing clicked until i backtracked,
   started adding flags as we went through. then the versions of gentoo got me,as i was adding stuff not available on the version i
-  selected,fixed that and the final contender. GRUB, you see, GRUB is very versatile,but that was not the issue, the issue was that
-  dell's like 60-70% of the time do not obey the location of your EFI boot file,and default back to their desired location,that was
-  a head breaker, struggled for hours,scourging forums, gave up and went next day to start from scratch, NO DICE, gave up and asked
+  selected,fixed that and the final contender. GRUB.
+- you see, GRUB is very versatile,but that was not the issue, the issue was that dell's, like 60-70% of the time do not obey the
+  location of your EFI boot file,and default back to their desired location,that was a head breaker, struggled for hours,scourging
+  forums, gave up and went next day to start from scratch, NO DICE, gave up and asked
   claude to parse for information, turns out,most of dells have a bug where they default to their deisred location no matter if you
   relocate the file right from the UEFI, they just straight up ignore your request and default. however,the versatility of GRUB meant
   i could send the boot file back to where the UEFI wanted it,without too much hassle, by running the following command:
@@ -51,21 +52,21 @@
 - MAKEOPTS="-j6 -l4"
 - USE="dracut postproc policykit gstreamer vaapi wayland dev-qt geoclue udev elogind X dbus qt pipewire kde-pla>
 
-- # Overrides the profile's ACCEPT_LICENSE default value
+- Overrides the profile's ACCEPT_LICENSE default value
 - ACCEPT_LICENSE="-* @FREE @EULA @GPL-COMPATIBLE @BINARY-REDISTRIBUTABLE"
 
 
-- # NOTE: This stage was built with the bindist USE flag enabled
+- NOTE: This stage was built with the bindist USE flag enabled
 
-- # This sets the language of build output to English.
-- # Please keep this setting intact when reporting bugs.
+- This sets the language of build output to English.
+- Please keep this setting intact when reporting bugs.
 - LC_MESSAGES=C.UTF-8
 - GRUB_PLATFORMS="efi-64"
 - VIDEO_CARDS=intel
 
 ## Challenges
-- detailed above, compilation times are atrocious,not enough performance for this mini to handle that.also the UEFI Ignoring my requests
-  this machine is made for something light like Void Linux
+- detailed above, compilation times are atrocious,not enough performance for this mini to handle that.also the UEFI
+  Ignoring my requests, this machine is made for something light like Void Linux
 
 ## Current State
 - Active
