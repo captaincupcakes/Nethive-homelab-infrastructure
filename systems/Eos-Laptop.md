@@ -20,6 +20,20 @@
 - Network testing and sharing
 - Git/documentation (for the time being, will add my rig to the list)
 
+## Why EndeavourOS
+- ever since i got involved with Linux, ive heard/seen the "impossibility" of Arch and how
+  High-tech you had to be to install it, once i decided to branch out of debian-based distros
+  arch was my first go to,armed with nothing more than a live DVD, off i went,but it ended in failure,
+  was still too immature to handle CLI, but as stubborn and curious as i am, never gave up and instead
+  i branched out to fined arch based distros. Enter EndeavourOS, basically arch with an installer. Off
+  i went and while i thought "this is it,ive installed arch" and was ready to move to the next OS,i
+  decided to stick around, and what an experience it was, Eos and Arch show me what it acutally meant to
+  "use the terminal", over time,everything clicked,and started to get more in depth (i even managed to break it
+  on purpose), and it broke on updates too, but that experience dealt me a lot of knowledge on how to recover from
+  a bad update,or a borked kernel, once i had "the juice", linux started clicking even more, not only did i wanted 
+  to go for full obscure distros, bleeding edge made everything look outdated by comparison, surprisingly, it hasnt given
+  me much trouble for a long time.
+
 ## Installed Services
 - Samba client
 - Git
