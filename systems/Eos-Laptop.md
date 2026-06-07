@@ -27,10 +27,10 @@
 - Steam
 
 ## Notes
-- Wireless only -âpoor signal due to old house made of thick wood
+- Wireless only-poor signal due to old house made of thick wood
 - Wired ethernet available, only used for hard testing or troubleshooting
 - Router Antenna extended to Main hall to improve signal
 - Most devices do get good signal,except the laptop, measured with wifi signal strenght app
-  suspect my laptop antennaes or the card are giving issues..
+  suspect my laptop antennas or the card are giving issues..
 - update: antennas are in a very bad location on the laptop (end of the case, both right near each other)
   engineering a way to add external stubby antennas, guess MSI went the cheap route when it came to WiFI 
