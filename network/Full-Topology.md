@@ -5,6 +5,7 @@
 - Switch 2 (Downstairs): TP-Link TL-SG108 (unmanaged)
 
 ## Layout
+```
 ISP
 └── Netgear Nighthawk RAX50
 ├── Switch 1 (Upstairs)
@@ -19,7 +20,7 @@ ISP
 antenna placement issue, extended
 router antenna to main hall as
 temporary mitigation)
-
+```
 
 ## Current Limitations
 - Both switches are unmanaged — no VLAN support yet
