@@ -11,7 +11,7 @@ alongside Windows environments to develop well-rounded systems administration sk
 ## Hardware
 | Device | OS | Role |
 |--------|-----|------|
-| Laptop | EndeavourOS (Arch) | Daily driver / testing |
+| Laptop | EndeavourOS (Arch) | Backup / Mobile station |
 | Gaming Rig | Nobara Linux | Primary workstation |
 | Mini PC 1 | Windows 10 | Troubleshooting / Windows env |
 | Mini PC 2 | Gentoo Linux | Experimental / server testing |
