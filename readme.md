@@ -17,14 +17,14 @@ alongside Windows environments to develop well-rounded systems administration sk
 | Mini PC 2 | Gentoo Linux | Experimental / server testing |
 
 ## Lab Hostnames
-| Hostname              | Hardware              | Role                    |
-|-----------------------|-----------------------|-------------------------|
-| nobara-rig            | ASUS TUF Z390         | Main Workstation        |
-| eos-laptop            | MSI Creator 15        | Mobile/Daily Driver     |
-| gentoo-mini           | Dell Wyse 7040        | Testing/Lab             |
-| windows-mini          | Dell Wyse 7040        | Windows Testing/Debug   |
-| nethive-proxmox-01    | Lenovo M75q Gen 5     | Virtualization Node     |
-| nethive-nas-01        | NAS (incoming)        | Network Storage         |
+| Hostname              | Hardware              | Role                        |
+|-----------------------|-----------------------|-----------------------------|
+| nobara-rig            | ASUS TUF Z390         | Main Workstation            |
+| eos-laptop            | MSI Creator 15        | Mobile/Daily Driver         |
+| Mini2                 | Dell Wyse 7040        | Testing/Lab                 |
+| Mini1                 | Dell Wyse 7040        | Windows Testing/Debug       |
+| Mini3                 | Lenovo M75q Gen 5     | Virtualization/Proxmox Node |
+| nethive-nas-01        | NAS (incoming)        | Network Storage             |
 
 ## Network Infrastructure
 - Dual switch topology across two floors
