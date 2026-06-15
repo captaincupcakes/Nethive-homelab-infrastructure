@@ -22,7 +22,7 @@
 - hearing so much of Virtualization. we delved into proxmox naturally, seeing my colleagues and senior administrators messing with
   VM's (and knowing one that has messed with proxmox), i delved in,this one is less linux messing (as i dealt with debian before)
   and more into the world of Virtual Machines, Virtual lan's and advanced networking in general.  im opening 2 branches at the same
-  time here, and were going fulll steam
+  time here, and were going full steam
 
 ## Challenges
 - Proxmox 9 uses .sources format instead of legacy .list files
