@@ -3,7 +3,7 @@
 ## Hardware Specs
 - System: Lenovo Thinkcentre M75q Gen5
 - CPU:AMD Ryzen 5 PRO 8500GE
-- RAM:32GB DDR4
+- RAM:32GB DDR5
 - Storage:512GB micron NVme
 - GPU: AMD Phoenix2 [Integrated]
 
