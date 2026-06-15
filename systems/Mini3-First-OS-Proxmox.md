@@ -13,7 +13,7 @@
 
 ## Role in Lab
 - Virtualization
-- custom VM to run for the love of the game
+- custom VM to run because we roll like that
 - Custom Firewall (oncoming)
 - VLAN
 - Potential Seedbox
@@ -24,6 +24,11 @@
   and more into the world of Virtual Machines, Virtual lan's and advanced networking in general.  im opening 2 branches at the same
   time here, and were going fulll steam
 
+## Challenges
+- Proxmox 9 uses .sources format instead of legacy .list files
+  requiring different repo management commands than documented
+  in most online guides
+
 ## Installed Software & Services
 - nothing yet,just got it running
 
@@ -32,5 +37,9 @@
 - soon
 
 ## Lessons Learned
-- setting a custom network from an installer (never done that one before)
-
+- Setting a custom network from an installer (never done that one before)
+- Static IP configuration during OS installation
+- Proxmox repository management (enterprise vs no-subscription)
+- Disabling unused enterprise repos via .sources format
+- Headless server management via web UI (port 8006)
+- Proxmox subscription model and open source alternatives
