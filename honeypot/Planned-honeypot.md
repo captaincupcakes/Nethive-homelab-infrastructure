@@ -5,3 +5,4 @@
 - Controlled exposure through pfSense
 - Log analysis and threat documentation
 - Target timeline: post-relocation
+- Honeypot Implementation: T-Pot
