@@ -42,22 +42,22 @@
 
 ## Use Flags
 
-COMMON_FLAGS="-O2 -pipe"
-CFLAGS="${COMMON_FLAGS}"
-CXXFLAGS="${COMMON_FLAGS}"
-FCFLAGS="${COMMON_FLAGS}"
-FFLAGS="${COMMON_FLAGS}"
-MAKEOPTS="-j17 -l16"
+- COMMON_FLAGS="-O2 -pipe"
+- CFLAGS="${COMMON_FLAGS}"
+- CXXFLAGS="${COMMON_FLAGS}"
+- FCFLAGS="${COMMON_FLAGS}"
+- FFLAGS="${COMMON_FLAGS}"
+- MAKEOPTS="-j17 -l16"
 
-USE="dracut postproc policykit gstreamer vaapi wayland dev-qt geoclue udev elogind X dbus qt pipewire kde-plasma bluetooth networkmanager acpi"
+- USE="dracut postproc policykit gstreamer vaapi wayland dev-qt geoclue udev elogind X dbus qt pipewire kde-plasma bluetooth networkmanager acpi"
 
-ACCEPT_LICENSE="-* @FREE @EULA @GPL-COMPATIBLE @BINARY-REDISTRIBUTABLE"
+- ACCEPT_LICENSE="-* @FREE @EULA @GPL-COMPATIBLE @BINARY-REDISTRIBUTABLE"
 
-LC_MESSAGES=C.UTF-8
+- LC_MESSAGES=C.UTF-8
 
-GRUB_PLATFORMS="efi-64"
+- GRUB_PLATFORMS="efi-64"
 
-VIDEO_CARDS="amdgpu radeonsi"
+- VIDEO_CARDS="amdgpu radeonsi"
 
 ## Current state
 - Active
