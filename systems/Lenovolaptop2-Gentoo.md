@@ -1,4 +1,4 @@
- Lenovo Laptop 2 - Gentoo
+# Lenovo Laptop 2 - Gentoo
 
 ## Hardware Specs
 - System: Lenovo Thinkpad L15 gen 2a 20X70056US
@@ -9,7 +9,7 @@
 
 ## Operating System
 - Gentoo Linux x86_64
-- Kernel version:Linux 6.18.43-gentoo-dist-bin [i value my time too much to compile kernels]
+- Kernel version:Linux 6.18.43-gentoo-dist-bin (i value my time too much to compile kernels)
 - Desktop Environment:KDE Plasma 6.6.6
 
 ## Role in Lab
@@ -27,6 +27,10 @@
 ## Installed Software & Services
 - Alacritty
 - Firefox
+- Thunar
+- Vlc
+- Emacs
+- Qalculate
 
 ## Notable Configurations
 - to be added
@@ -34,5 +38,27 @@
 ## Lessons Learned
 - Great WiFi signal, what happens when a company puts effort in building a laptop
 - Realtek does not play nice with linux,didnt have issues but changed to intel for Wifi due to concerns
+- unlike the dell.lenovo respect the OS's efi location
 
+## Use Flags
+
+COMMON_FLAGS="-O2 -pipe"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${COMMON_FLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+MAKEOPTS="-j17 -l16"
+
+USE="dracut postproc policykit gstreamer vaapi wayland dev-qt geoclue udev elogind X dbus qt pipewire kde-plasma bluetooth networkmanager acpi"
+
+ACCEPT_LICENSE="-* @FREE @EULA @GPL-COMPATIBLE @BINARY-REDISTRIBUTABLE"
+
+LC_MESSAGES=C.UTF-8
+
+GRUB_PLATFORMS="efi-64"
+
+VIDEO_CARDS="amdgpu radeonsi"
+
+## Current state
+- Active
 
